@@ -18,7 +18,7 @@ NOTE: This is a work in progress not yet ready for deployment will update
 <h3> ANDROID APP:</h3>
 <p>For deployment on android we'll be using Tiny yolo as it's light weight and very fast and runs on many devices but there's a tradeoff in accuracy and we'll use as a demo app</p>
 <p>For production we'll be using SSD on mobilenet which should bump up the accuracy by a good factor</p>
-<p> Will add a more comprehensive notebook explaing the model training process</p>
+<p> Will add a more comprehensive notebook explaining the model training process</p>
 <p>
 This is used to set the training parameters, the file names will be replaced with the dataset for the project.
 Anchors will be generated for dataset using gen_anchors.py
