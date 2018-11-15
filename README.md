@@ -10,6 +10,6 @@ Tiny YOLO was chosen for this project because its light weight and runs on andro
 
 We'll be moving through building the network in the python notebook for learning purposes</p>
 <a href="https://pjreddie.com/darknet/yolo/"> Yolo website</a>
-
+Model and code inspired by this repo https://github.com/experiencor/keras-yolo2
 
 NOTE: This is a work in progress not yet ready for deployment will update
