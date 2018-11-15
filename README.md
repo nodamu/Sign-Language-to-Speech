@@ -1,4 +1,4 @@
-SIGN LANGUAGE TO SPEECH
+<h2>SIGN LANGUAGE TO SPEECH</h2>
 This project has two main parts the:
 1. The Sign Language Recognition Model 
 2. The Android App 
