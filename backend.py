@@ -16,6 +16,7 @@ INCEPTION3_BACKEND_PATH = "inception_backend.h5"   # should be hosted on a serve
 VGG16_BACKEND_PATH      = "vgg16_backend.h5"       # should be hosted on a server
 RESNET50_BACKEND_PATH   = "resnet50_backend.h5"    # should be hosted on a server
 
+
 class BaseFeatureExtractor(object):
     """docstring for ClassName"""
 
@@ -338,3 +339,8 @@ class ResNet50Feature(BaseFeatureExtractor):
         image[..., 2] -= 123.68
 
         return image 
+
+class Yolov3Tiny(BaseFeatureExtractor):
+    """ docstring for ClassName"""
+    def __init__(self, input_size):
+
