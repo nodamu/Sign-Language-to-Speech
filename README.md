@@ -19,9 +19,9 @@ NOTE: This is a work in progress not yet ready for deployment will update
 <p>For deployment on android we'll be using Tiny yolo as it's light weight and very fast and runs on many devices but there's a tradeoff in accuracy and we'll use as a demo app</p>
 <p>For production we'll be using SSD on mobilenet which should bump up the accuracy by a good factor</p>
 <p> Will add a more comprehensive notebook explaing the model training process</p>
-The configuration file is a json file, which looks like this:
+<p>The configuration file is a json file, which looks like this:
 This is used to set the training parameters, the file names will be replaced with the dataset for the project.
-Anchors will be generated for dataset using gen_anchors.py
+Anchors will be generated for dataset using gen_anchors.py</p>
 ```python
 {
     "model" : {
@@ -35,7 +35,6 @@ Anchors will be generated for dataset using gen_anchors.py
     "train": {
         "train_image_folder":   "/home/andy/data/raccoon_dataset/images/",
         "train_annot_folder":   "/home/andy/data/raccoon_dataset/anns/",      
-          
         "train_times":          10,             # the number of time to cycle through the training set, useful for small datasets
         "pretrained_weights":   "",             # specify the path of the pretrained weights, but it's fine to start from scratch
         "batch_size":           16,             # the number of images to read in each batch
