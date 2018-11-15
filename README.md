@@ -12,6 +12,7 @@
 <p>We'll be moving through building the YOLOv3 network in the python notebook for learning purposes</p>
 <p><a href="https://pjreddie.com/darknet/yolo/"> Original Yolo website</a></p>
 <p>Model and code inspired by this repo https://github.com/experiencor/keras-yolo2</p>
+<p> A good intro to single pass object detection methods here https://www.jeremyjordan.me/object-detection-one-stage/</p>
 
 NOTE: This is a work in progress not yet ready for deployment will update
 <h3> ANDROID APP:</h3>
