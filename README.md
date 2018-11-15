@@ -22,7 +22,7 @@ NOTE: This is a work in progress not yet ready for deployment will update
 <p>The configuration file is a json file, which looks like this:
 This is used to set the training parameters, the file names will be replaced with the dataset for the project.
 Anchors will be generated for dataset using gen_anchors.py</p>
-```python
+<br/>```python
 {
     "model" : {
         "architecture":  "Tiny Yolo" 
