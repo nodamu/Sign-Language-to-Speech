@@ -9,6 +9,7 @@
 Tiny YOLO was chosen for this project because its light weight and runs on android very well
 
 We'll be moving through building the network in the python notebook for learning purposes</p>
+<a href="https://pjreddie.com/darknet/yolo/"> Yolo website</a>
 
 
 NOTE: This is a work in progress not yet ready for deployment will update
