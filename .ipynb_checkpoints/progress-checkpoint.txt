@@ -1,0 +1,4 @@
+The model is ready for training. 
+It's left with a dataset, the annotations, and anchors for training.
+
+ 
