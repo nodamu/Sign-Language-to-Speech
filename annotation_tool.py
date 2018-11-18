@@ -11,9 +11,9 @@ br_list = []
 object_list = []
 
 # constants
-image_folder = 'dataset'
-savedir = 'annotations'
-obj = 'fidget_spinner'
+image_folder = 'dataset' # Can change this to dataset folder
+savedir = 'annotations' # Can change this name to folder for storing annotations
+obj = 'fidget_spinner' # Can change this another name for dataset
 
 
 def line_select_callback(clk, rls):
