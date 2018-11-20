@@ -1,2 +1,3 @@
 Contains dataset files
-Will push dataset
+The Alphabet Dataset can be downloaded from https://www.kaggle.com/grassknoted/asl-alphabet#asl_alphabet_train.zip
+Digits dataset can be downloaded from https://github.com/ardamavi/Sign-Language-Digits-Dataset
