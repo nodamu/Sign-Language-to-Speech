@@ -8,8 +8,6 @@
 
 <p>Tiny YOLO was chosen for this project because its light weight and runs on android very well</p>
 <p>Future implementations will include SSD on mobilenet to increase accuracy</p>
-
-<p>We'll be moving through building the YOLOv3 network in the python notebook for learning purposes</p>
 <p><a href="https://pjreddie.com/darknet/yolo/"> Original Yolo website</a></p>
 <p>Model and code inspired by this repo https://github.com/experiencor/keras-yolo2</p>
 <p> A good intro to single pass object detection methods here https://www.jeremyjordan.me/object-detection-one-stage/</p>
