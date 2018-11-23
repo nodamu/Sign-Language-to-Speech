@@ -2,7 +2,7 @@ import os
 import matplotlib.pyplot as plt
 import cv2
 from matplotlib.widgets import RectangleSelector
-from modified_xml import write_xml
+from generate_xml import write_xml
 
 # global constants
 img = None
@@ -11,9 +11,9 @@ br_list = []
 object_list = []
 
 # constants
-image_folder = 'dataset' # Can change this to dataset folder
-savedir = 'annotations' # Can change this name to folder for storing annotations
-obj = 'fidget_spinner' # Can change this another name for dataset
+image_folder = 'Dataset/images/0' # Can change this to dataset folder
+savedir = 'Dataset/annotations' # Can change this name to folder for storing annotations
+obj = '0' # Can change this another name for dataset
 
 
 def line_select_callback(clk, rls):
